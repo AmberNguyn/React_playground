@@ -3,12 +3,12 @@ import './App.css';
 import Playground from './components/playground';
 
 function App() {
-  const data = "anh"
+  const data = ["anh", "nguyen"];
 
 
   return (
     <div className="App">
-      <Playground data = {data}></Playground>
+      <Playground item = {data}></Playground>
 
     </div>
   );
